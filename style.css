@@ -15,12 +15,6 @@
 }
 
 
-.Footer-Logo{
-    width: 65px;
-    padding-left: 12px;
-    padding-top: 10px;
-}
-
 .nav-items >ul{
     font-family: Montserrat;
     font-weight: 600;
@@ -61,3 +55,33 @@
     width: 100%;
 }
 
+.Footer-Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+.Footer-Logo img {
+    width: 50px;
+}
+
+.Footer-Container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.Footer-Container ul li {
+    cursor: pointer;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #555;
+}

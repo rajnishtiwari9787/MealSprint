@@ -30,11 +30,9 @@ Footer
 const Header=()=>{
     return(
         <div className="header">
-
             <div className="logo-container">
                 <img className="logo" src="https://e7.pngegg.com/pngimages/496/109/png-clipart-gold-colored-triangle-logo-nail-art-june-triangulo-neon-angle-rectangle-thumbnail.png" alt="logo of brand" />
             </div>
-
             <div className="nav-items">
                 <ul>
                     <li>Home</li>
@@ -2092,4 +2090,6 @@ const AppLayout=()=>{
 
 const root=ReactDOM.createRoot(document.getElementById("heading"));
 root.render(<AppLayout/>);
+
+
 
