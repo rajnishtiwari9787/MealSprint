@@ -1,0 +1,21 @@
+{
+  "name": "part2",
+  "version": "1.0.0",
+  "description": "food delivery app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "build index.html",
+    "test": "jset"
+  },
+  "author": "gk",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.13.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
